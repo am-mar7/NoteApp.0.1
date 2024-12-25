@@ -14,9 +14,9 @@ import com.dlsc.formsfx.model.structure.Field;
 public class FileManager{
     private LinkedList <String> managed ;
     private static final String baselocation = "/home/ammar/Downloads/LocalDataBase/";
-    private static final String AllUsersDataPath = "/home/ammar/Downloads/LocalDataBase/AllUsersData.json";
-    private static final String currentUserPath ="/home/ammar/Downloads/LocalDataBase/currUser.json";
-    private static final String currentNotePath = "/home/ammar/Downloads/LocalDataBase/currNote.json";
+    private static final String AllUsersDataPath = baselocation+"AllUsersData.json";
+    private static final String currentUserPath =baselocation+"currUser.json";
+    private static final String currentNotePath = baselocation+"currNote.json";
     public FileManager () {
         managed = new LinkedList<String>();
     }
